@@ -165,7 +165,7 @@ exitButton = Button(text="Exit", command=lambda: exit_application(client))
 exitButton.pack()
 
 tab_order(entry_1, entry_2, entry_3, exitButton)
-
+print(window.focus_get())
 
 # writeButton = Button(text="Write register", command=lambda: write_register)
 # writeButton.place(x=0, y=100)
